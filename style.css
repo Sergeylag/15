@@ -1,0 +1,39 @@
+body {
+	background-color: #d1e231;
+	text-align: center;
+}
+#step {
+	color: gray;
+	margin-top: 5px;
+	font-size: 24px;
+}
+td {				
+	position: relative;
+	text-align:center;				
+	font-family:Times New Roman;
+	color: gray;
+	vertical-align: middle;				
+}
+#game td {
+	background-color: green;
+	border: solid 1px #ffb300;
+	border-radius: 5px;
+	text-align:center;
+	font-size:40px;
+	font-family:Times New Roman;
+	color: black;
+	width: 55px;
+	height: 55px;
+}
+#game td:hover {
+	color:white;
+	cursor: hand;
+}
+#game {
+	background-color: yellow;
+	margin-top: 50px;
+	display: inline-block;
+	border-radius: 7px;
+	border: 4px solid #fdb229;
+}
+
